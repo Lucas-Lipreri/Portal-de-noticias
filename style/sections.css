@@ -62,6 +62,7 @@ Section header {
 }
 
 #weekly {
+    border-top: 1px solid var(--stroke-color);
     grid-area: weekly;
 
     &>div {
@@ -89,7 +90,9 @@ Section header {
 }
 
 #ai {
+      border-top: 1px solid var(--stroke-color);
     grid-area: ai;
+
     img {
         height: 176px;
         aspect-ratio: 1/1;
@@ -101,11 +104,17 @@ Section header {
     }
 }
 
-aside {
+#aside {
     grid-area: aside;
 }
 
+#ads { 
+    margin-bottom: 32px;
+}
+
 #more {
+      border-top: 1px solid var(--stroke-color);
+    
     h3 {
         margin-top: 8px;
     }
